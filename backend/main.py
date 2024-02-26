@@ -1,11 +1,11 @@
 from flask import Flask, request
 import sqlite3
 import time
-from flask_cors import CORS
+
 # from snippets.medLineAPI import getData
 
 app = Flask(__name__)
-CORS(app, resources={r'/*': {'origins': '*'}})
+
 
 def get_database_connection():
     connection = sqlite3.connect('database.db')
