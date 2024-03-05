@@ -14,6 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header> -->
+  
+  <RouterView/>
+  <!-- 
   <nav class="navbar is-fixed-top is-transparent">
     <div class="container is-fluid force-full">
       <nav class="level is-mobile mx-5">
@@ -62,6 +65,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </nav>
+  -->
 </template>
 
 <style>
